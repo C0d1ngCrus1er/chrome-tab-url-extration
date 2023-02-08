@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Data Extractor 1.1",
+    "version": "1.1",
+    "permissions": [
+      "downloads",
+      "tabs"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
